@@ -10,8 +10,6 @@ using namespace std;
 #include<io.h>
 #include<assert.h>
 #include<stdlib.h>
-
-#pragma warning(disable: 4996)
  
 typedef struct Logfile
 {
@@ -408,11 +406,14 @@ int main(int argc, char* argv[])
 				ppobj = new ProcessInfo();
 				cout << "Enter log file details as :" << endl;
 
-				cout << "Hour: ";cin >> hr;
+				cout << "Hour: ";
+				cin >> hr;
 
-				cout << endl << "Minute:";cin >> min;
+				cout << endl << "Minute:";
+				cin >> min;
 
-				cout << endl << "date :";cin >> date;
+				cout << endl << "date :";
+				cin >> date;
 
 				cout << endl << "Month :";
 				cin >> month;
